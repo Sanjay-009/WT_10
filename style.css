@@ -1,0 +1,32 @@
+html {
+  background-image: url('https://www.desktopbackground.org/download/1920x1080/2010/07/20/51121_plain-white-wallpapers-hd_1920x1200_h.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+table.roundedCorners,
+table.roundedCorners th input { 
+  border: 1px solid Black;
+  border-radius: 14px; 
+  border-spacing: 0;
+}
+
+table.roundedCorners td, 
+table.roundedCorners th { 
+  border-bottom: 1px solid Black;
+  padding: 11px; 
+}
+
+input {
+  text-align: center;
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+}
+
+table.roundedCorners tr:last-child > th{
+    border-bottom: none;
+}
